@@ -5,14 +5,35 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: Source Code Pro;
+  font-size: 2.5em;
+  color: #F8F8F2;
+  text-align: center;
+}
+
 btw {
   font-size: 0.1em;
 }
 
+ul.bloglist {
+	font-family: Source Code Pro;
+	font-size: 1.2em;
+	color: #F8F8F2;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+}
+
+li.blogentry {
+
+}
+
 ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+list-style-type: none;
+margin: 0;
+padding: 10px;
+top: 0;
 }
 
 li.navbar {
@@ -21,12 +42,10 @@ li.navbar {
 }
 
 a.navbar {
-	font-family: Source Code Pro;
-	font-size: 1.3em;
-	color: #F8F8F2;
-	font-style: normal;
-	font-weight: bold;
-
+  text-decoration: none;
+  font-family: Source Code Pro;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 img {
@@ -36,8 +55,6 @@ img {
   margin-right: auto;
   width: 50%;
 }
-
-
 
 div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
@@ -52,7 +69,7 @@ div {
 
 p {
   font-family: Source Code Pro;
-  font-size: 20px;
+  font-size: 1.4em;
   color: #F8F8F2;
   margin: auto;
   width: 80%;
